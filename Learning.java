@@ -239,6 +239,7 @@ btn2[j].setBorder(null);
         for (int i = 0; i < 26; i++) {
             if (e.getSource()==btn10[i]) {
                 reproducirsonido("abc"+i+".wav");
+                System.out.println("Texto agregado prueba git");
             }
         }
         
